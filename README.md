@@ -261,13 +261,13 @@ ItemDisplay[gsb CLVL>50]:
 ItemDisplay[gsy CLVL>50]:
 ItemDisplay[sku CLVL>50]:
 //Gems flawless
-ItemDisplay[gzv OR gzvs]://%PURPLE%* %ORANGE%Amethyst %PURPLE%*%WHITE%
-ItemDisplay[glw OR glws]://%WHITE%* %ORANGE%Diamond %WHITE%*%WHITE%
-ItemDisplay[glg OR glgs]://%GREEN%* %ORANGE%Emerald %GREEN%*%WHITE%
-ItemDisplay[glr OR glrs]://%RED%* %ORANGE%Ruby %RED%*%WHITE%
-ItemDisplay[glb OR glbs]://%BLUE%* %ORANGE%Sapphire %BLUE%*%WHITE%
-ItemDisplay[gly OR glys]://%YELLOW%* %ORANGE%Topaz %YELLOW%*%WHITE%
-ItemDisplay[skl OR skls]://%GRAY%* %ORANGE%Skull %GRAY%*%WHITE%
+ItemDisplay[]: %NAME%
+ItemDisplay[]: %NAME%
+ItemDisplay[]: %NAME%
+ItemDisplay[]: %NAME%
+ItemDisplay[]: %NAME%
+ItemDisplay[]: %NAME%
+ItemDisplay[]: %NAME%
 //Gems Perfect
 ItemDisplay[gpv OR gpvs]:%PURPLE%* %PURPLE%P Amethyst %PURPLE%*%WHITE%
 ItemDisplay[gpw OR gpws]:%WHITE%* %PURPLE%P Diamond %WHITE%*%WHITE%
@@ -410,7 +410,7 @@ ItemDisplay[UNI !ID uhb]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Shadow Da
 //Sandstorm Trek
 ItemDisplay[UNI !ID uvb]:%RED%* %PURPLE%Sandstorm Trek %RED%*%BORDER-A5%%DOT-62% 
 //Gore Rider
-ItemDisplay[UNI !ID xhb]:%RED%* %PURPLE%Gore Rider %RED%*%BORDER-A5%%DOT-62% 
+ItemDisplay[]: %NAME%
 ///////////
 //Weapons//
 ///////////
@@ -646,8 +646,7 @@ ItemDisplay[MAG ILVL>71 (ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR
 ItemDisplay[MAG ILVL>71 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn OR 9bw OR 7bw OR gwn OR 9gw OR 7gw)]:// %NAME% {%PURPLE%Caster:%TAN% P Ame + Tir %ORANGE%Craft w/ Jewel:}
 //
 //Eth Throwing Weapons
-//
-ItemDisplay[MAG ILVL>71 ETH (!SPEAR THROWING !ZON) (EXC OR ELT)]: //%NAME% {%BLUE%Hit Power:%TAN% P Saph + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:} 
+//ItemDisplay[]: %NAME%: {%BLUE%Hit Power:%TAN% P Saph + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:} 
 //
 //Swords	
 //
@@ -1611,18 +1610,18 @@ ItemDisplay[NMAG !RW ILVL>25 9bl]:
 ItemDisplay[NMAG !RW ILVL>60 7bl]:
 //
 //Throwing
-ItemDisplay[NMAG !RW ILVL>14 tkf]:
-ItemDisplay[NMAG !RW ILVL>25 9tk]:
-ItemDisplay[NMAG !RW ILVL>60 7tk]:
-ItemDisplay[NMAG !RW ILVL>14 tax]:
-ItemDisplay[NMAG !RW ILVL>25 9ta]:
-ItemDisplay[NMAG !RW ILVL>60 7ta]:
-ItemDisplay[NMAG !RW ILVL>14 bkf]:
-ItemDisplay[NMAG !RW ILVL>25 9bk]:
-ItemDisplay[NMAG !RW ILVL>60 7bk]:
-ItemDisplay[NMAG !RW ILVL>14 bal]:
-ItemDisplay[NMAG !RW ILVL>25 9b8]:
-ItemDisplay[NMAG !RW ILVL>60 7b8]:
+ItemDisplay[]: %NAME%:
+ItemDisplay[]: %NAME%:
+ItemDisplay[]: %NAME%:
+ItemDisplay[]: %NAME%:
+ItemDisplay[]: %NAME%:
+ItemDisplay[]: %NAME%:
+ItemDisplay[]: %NAME%:
+ItemDisplay[]: %NAME%:
+ItemDisplay[]: %NAME%:
+ItemDisplay[]: %NAME%:
+ItemDisplay[]: %NAME%:
+ItemDisplay[]: %NAME%:
 //
 //Javelin
 ItemDisplay[NMAG !RW ILVL>14 jav]:
